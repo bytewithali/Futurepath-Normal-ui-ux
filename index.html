@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>FuturePath: Learn. Build. Unlock. Grow.</title>
+
+<link rel="preconnect" href="https\://fonts.googleapis.com">
+
+<link href="https\://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+<header>
+    <div class="wrap nav">
+
+<a class="logo" href="#top" aria-label="FuturePath home"><i><svg viewBox="0 0 24 24"><path d="M4 19c4-1 4-6 8-7s4-6 8-7"/><circle cx="20" cy="5" r="1.2"/></svg></i>FuturePath</a>
+
+<nav class="links" aria-label="Main"><a href="#how">How it works</a><a href="#paths">Career paths</a><a href="#projects">Projects</a><a href="#faq">FAQ</a><a class="btn solid sm" href="#paths">Start your journey</a></nav>
+
+</div>
+</header>
+
+<main id="top">
+
+<section class="hero"><div class="wrap hero-grid">
+
+<div>
+
+<span class="tag">Learn. Build. Unlock. Grow.</span>
+
+<h1>Your future starts with the right path.</h1>
+
+<p class="lede">Discover your potential, explore career opportunities, follow personalized learning roadmaps, and build the skills needed to achieve your dreams.</p>
+
+<div class="cta"><a class="btn solid" href="#paths">Start your journey</a><a class="btn ghost" href="#paths">Explore career paths</a></div>
+
+</div>
+
+<div class="card rm" aria-live="polite">
+
+<div class="rm-head"><span>Web Development</span><span id="rmPct">0% complete</span></div>
+
+<div class="bar"><b id="rmBar"></b></div>
+
+<ul class="nodes" id="nodes"></ul>
+
+<button class="btn solid sm sim" id="sim"></button>
+
+</div>
+
+</div></section>
+
+
+
+<section id="how" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
+
+<h2>How FuturePath works</h2>
+
+<p class="lede">Four steps take you from “where do I start?” to a portfolio of shipped projects.</p>
+
+<div class="steps">
+
+<div class="step"><div class="n">01</div><h3>Choose a career</h3><p>Tell us your qualification, interests and daily time. We shape the plan around you.</p></div>
+
+<div class="step"><div class="n">02</div><h3>Follow the roadmap</h3><p>Short daily lessons with examples, exercises and mini challenges.</p></div>
+
+<div class="step"><div class="n">03</div><h3>Build a real project</h3><p>Finish each skill with a practical project and submit it for review.</p></div>
+
+<div class="step"><div class="n">04</div><h3>Unlock the next skill</h3><p>Once a mentor approves your project, the next module opens.</p></div>
+
+</div></div></section>
+
+
+
+<section id="paths"><div class="wrap">
+
+<h2>Explore career paths</h2>
+
+<p class="lede">Pick a path to preview its roadmap. This is the same choice you make when you onboard.</p>
+
+<div class="paths" id="pathList" role="group" aria-label="Career paths"></div>
+
+<div class="card det" id="det" aria-live="polite"></div>
+
+</div></section>
+
+
+
+<section id="roadmaps" style="padding-top:0"><div class="wrap split">
+
+<div>
+
+<h2>Personalized learning roadmaps</h2>
+
+<p class="lede">Every technology comes with the same complete toolkit, so you always know what to do today.</p>
+
+<div class="feat"><div>Introduction</div><div>Learning objectives</div><div>Day-by-day tasks</div><div>Practice exercises</div><div>Mini challenges</div><div>Practical project</div></div>
+
+</div>
+
+<div class="card" style="padding:24px">
+
+<div class="rm-head"><span id="rdTitle">Web Development</span><span id="rdCount"></span></div>
+
+<ol class="tl" id="rdList"></ol>
+
+</div>
+
+</div></section>
+
+
+
+<section id="projects" class="dark"><div class="wrap">
+
+<h2>Project-based learning, with real unlocks</h2>
+
+<p class="lede">You can’t skip ahead. Each skill ends with a project, and the next module stays locked until a reviewer approves it.</p>
+
+<div class="flow">
+
+<div class="ok"><b>Lessons</b><span>Complete every daily task in the module.</span></div>
+
+<div class="ok"><b>Project</b><span>Build the practical project for that skill.</span></div>
+
+<div><b>Submit</b><span>Share your GitHub repository, live URL and description.</span></div>
+
+<div><b>Review</b><span>A mentor approves it or sends feedback to improve.</span></div>
+
+<div><b>Unlock</b><span>The next technology opens on approval.</span></div>
+
+</div>
+
+<div class="status" aria-label="Project statuses"><span>Not started</span><span>In progress</span><span>Submitted</span><span>Under review</span><span>Approved</span><span>Needs improvement</span></div>
+
+</div></section>
+
+
+
+<section id="progress"><div class="wrap split">
+
+<div>
+
+<h2>Track your progress</h2>
+
+<p class="lede">Your dashboard counts what you actually finish: tasks, projects, skills unlocked and your daily streak.</p>
+
+<div class="cta"><a class="btn ghost" href="#faq">See how it’s measured</a></div>
+
+</div>
+
+<div class="card" style="padding:24px">
+
+<div class="rm-head"><span>Your week</span><span>Sample dashboard</span></div>
+
+<div class="stats"><div><b>42%</b><span>Overall progress</span></div><div><b>12</b><span>Day streak</span></div><div><b>3</b><span>Skills unlocked</span></div></div>
+
+<div class="week" aria-hidden="true"><i style="height:55%"></i><i style="height:80%"></i><i style="height:35%"></i><i style="height:95%"></i><i style="height:65%"></i><i style="height:45%"></i><i class="e" style="height:12%"></i></div>
+
+<div class="days"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+
+</div>
+
+</div></section>
+
+
+
+<section style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap">
+
+<h2>Why choose FuturePath?</h2>
+
+<div class="grid3">
+
+<div class="card"><h3>Practice over passive watching</h3><p>Every skill ends in something you built, not a video you finished.</p></div>
+
+<div class="card"><h3>A guide, not a shortcut</h3><p>FuturePath AI explains errors and suggests exercises, but you write the code.</p></div>
+
+<div class="card"><h3>Starts from zero</h3><p>No programming background needed. The roadmap adapts to your level and daily time.</p></div>
+
+</div></div></section>
+
+
+
+<section><div class="wrap">
+
+<h2>Student success</h2>
+
+<div class="grid3">
+
+<div class="card quote"><p>“I finally knew what to learn next. Getting my HTML project approved felt like earning a real level.”</p><div class="who"><i>A</i><div><b>Aarav S.</b>Class 12 student</div></div></div>
+
+<div class="card quote"><p>“Daily tasks of one hour fit around college. In three months I had a portfolio I could show.”</p><div class="who"><i>P</i><div><b>Priya M.</b>Undergraduate</div></div></div>
+
+<div class="card quote"><p>“The reviewer feedback on my JavaScript project taught me more than any tutorial.”</p><div class="who"><i>R</i><div><b>Rohan K.</b>Career switcher</div></div></div>
+
+</div>
+
+<p style="margin-top:16px;font-size:.82rem">Sample stories shown for preview. Replace with real student testimonials at launch.</p>
+
+</div></section>
+
+
+
+<section id="faq" style="padding-top:0"><div class="wrap">
+
+<h2>Frequently asked questions</h2>
+
+<div class="faq">
+
+<details><summary>Do I need prior experience?</summary><p>No. You can start as a complete beginner. Onboarding asks your level and sets where your roadmap begins.</p></details>
+
+<details><summary>How much time do I need each day?</summary><p>You choose 30 minutes, 1 hour, 2 hours or 3+ hours. Lessons are sized to match.</p></details>
+
+<details><summary>Why can’t I skip to the next module?</summary><p>Skills build on each other. A reviewed project proves you can apply a skill before the next one unlocks.</p></details>
+
+<details><summary>What if my project needs improvement?</summary><p>You receive written feedback, fix the issues and resubmit as many times as needed.</p></details>
+
+<details><summary>Will the AI mentor do my assignments?</summary><p>No. FuturePath AI guides you with explanations, hints and resources, so the work stays yours.</p></details>
+
+</div></div></section>
+
+
+
+<section class="dark final"><div class="wrap">
+
+<h2>Don’t just learn skills. Build your future.</h2>
+
+<p class="lede" style="margin-inline:auto">Pick a career path and see your first roadmap in under a minute.</p>
+
+<div class="cta"><a class="btn solid" href="#paths">Start your journey</a><a class="btn ghost" href="#paths">Explore career paths</a></div>
+
+</div></section>
+
+</main>
+
+
+
+<footer><div class="wrap">
+
+<div class="fgrid">
+
+<div><a class="logo" href="#top" style="padding:0">FuturePath</a><p style="margin-top:12px;max-width:30ch;font-size:.92rem">Learn. Build. Unlock. Grow.</p></div>
+
+<div><h3>Platform</h3><a href="#how">How it works</a><a href="#paths">Career paths</a><a href="#roadmaps">Roadmaps</a><a href="#projects">Projects</a></div>
+
+<div><h3>Learn</h3><a href="#progress">Progress</a><a href="#faq">FAQ</a></div>
+
+<div><h3>Company</h3><a href="#top">About</a><a href="#top">Contact</a><a href="#top">Privacy</a></div>
+
+</div>
+
+<div class="copy"><span>© 2026 FuturePath. All rights reserved.</span><span>Built for students.</span></div>
+
+</div></footer>
+
+
+
+<script src="script.js" defer></script>
+
+</body>
+
+</html>
